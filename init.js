@@ -1,5 +1,4 @@
- 
- // Load needed modules
+// Load needed modules
  var fs = require('fs');
  var cluster = require('cluster');
  var os = require('os');
@@ -28,7 +27,11 @@
  if (cluster.isWorker) {
  	switch (process.env.workerType) {
  		case 'pool':
- 			require('./lib/pool.js');
+			if (config.cnAlgorithm == "ethash") {
+				require('./lib/pool-infinium.js');
+			} else {
+ 				require('./lib/pool.js');
+			}
  			break;
  		case 'daemon':
  			require('./lib/daemon.js')
@@ -40,7 +43,7 @@
  			require('./lib/blockUnlocker.js');
  			break;
  		case 'paymentProcessor':
-               		require('./lib/paymentProcessor.js');
+            require('./lib/paymentProcessor.js');
  			break;
  		case 'api':
  			require('./lib/api.js');
