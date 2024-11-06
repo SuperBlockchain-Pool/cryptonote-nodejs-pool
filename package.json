@@ -2,8 +2,8 @@
 	"name": "cryptonote-nodejs-pool",
 	"version": "2.6.0",
 	"license": "GPL-2.0",
-	"original author": "SuperBlockchain Pool",
-	"maintained by": "SuperBlockchain Pool",
+	"Original author": "SuperBlockchain Pool",
+	"Maintained by": "SuperBlockchain Pool",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/SuperBlockchain-Pool/cryptonote-nodejs-pool.git"
@@ -16,15 +16,17 @@
 		"cli-color": "*",
 		"cryptoforknote-util": "git+https://github.com/SuperBlockchain-Pool/node-cryptoforknote-util.git#nd20",
 		"cryptonight-hashing": "git+https://github.com/SuperBlockchain-Pool/node-cryptonight-hashing.git#nd20",
-		"dateformat": "4.5.1",
-		"discord.js": "^12.5.1",
-		"domexception": "*",
-		"mailgun.js": "*",
+		"multi-hashing": "git+https://github.com/SuperBlockchain-Pool/node-multi-hashing.git#nd18",
 		"evox-util": "git+https://github.com/SuperBlockchain-Pool/evox-node-util.git",
 		"infinium-util": "git+https://github.com/Infinium-8-Developers/infinium-node-util.git#nd18",
-		"multi-hashing": "git+https://github.com/SuperBlockchain-Pool/node-multi-hashing.git#nd18",
-		"nirmata-util": "git+https://github.com/SuperBlockchain-Pool/NirmataNodeUtil.git#2e85d5865a62872fb41811cf2c0a9bf63e827002 ",
+		"nirmata-util": "git+https://github.com/SuperBlockchain-Pool/NirmataNodeUtil.git",
 		"zano-util": "git+https://github.com/SuperBlockchainPool/zano-node-util.git",
+		"multi-hashing-alt": "git+https://github.com/SuperBlockchain-Pool/multi-hashing.git",
+		"cryptonote-util": "git+https://github.com/SuperBlockchain-Pool/cryptonote-util.git",
+		"dateformat": "4.5.1",
+		"discord.js": "^14.16.2",
+		"domexception": "*",
+		"mailgun.js": "*",
 		"node-telegram-bot-api": "*",
 		"nodemailer": "*",
 		"nodemailer-sendmail-transport": "*",
@@ -35,6 +37,6 @@
 		"utf-8-validate": "*"
 	},
 	"engines": {
-		"node": ">=12.0.0"
+		"node": ">=14.0.0"
 	}
 }
