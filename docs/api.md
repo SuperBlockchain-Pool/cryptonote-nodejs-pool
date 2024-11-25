@@ -42,6 +42,8 @@ Arguments:
 
 * _`tickers[]`_: Tickers (can be used multiple times in the request)
 
+* Example: https://api.urlpool/get_market?tickers%5B%5D=BTCMZ-BTC&tickers%5B%5D=BTCMZ-LTC&tickers%5B%5D=BTCMZ-DOGE&tickers%5B%5D=BTCMZ-USDT&tickers%5B%5D=BTCMZ-USD&tickers%5B%5D=BTCMZ-EUR&tickers%5B%5D=BTCMZ-CAD
+
 #### `/get_top10miners`
 
 Returns the top 10 miners

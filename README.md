@@ -103,10 +103,10 @@ Usage
 
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
-* [Node.js](http://nodejs.org/) v11.0+
+* [Node.js](http://nodejs.org/) v14.0+
   * For Ubuntu: 
  ```
-  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
+  curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash
   sudo apt-get install -y nodejs
  ```
   * Or use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
@@ -137,6 +137,12 @@ echo 1024 > /proc/sys/net/core/somaxconn
   
 * libsodium  
   * For Ubuntu: `sudo apt-get install libsodium-dev`
+
+* libgmp-dev
+  * For Ubuntu: `sudo apt-get install libgmp-dev`
+
+* build-essential
+  * For Ubuntu: `sudo apt-get install build-essential`
 
 
 ##### Seriously
