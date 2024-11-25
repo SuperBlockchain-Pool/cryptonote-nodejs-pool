@@ -155,7 +155,7 @@
 		// Get readable hashrate
 		function getReadableHashRate (hashrate) {
 			let i = 0;
-			let byteUnits = [' H', ' KH', ' MH', ' GH', ' TH', ' PH'];
+			let byteUnits = [' H', ' KH', ' MH', ' GH', ' TH', ' PH', ' EH'];
 			while (hashrate > 1000) {
 				hashrate = hashrate / 1000;
 				i++;

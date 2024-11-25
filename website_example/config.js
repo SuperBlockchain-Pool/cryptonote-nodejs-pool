@@ -1,6 +1,6 @@
 var api = "https://your-api.pool.com/apiMerged";
 var apiMerged = "https://your-api.pool.com/apiMerged1";
-let parentCoin = "Chimera"
+let parentCoin = "nameCoin"
 
 var email = "support@poolhost.com";
 var telegram = "https://t.me/YourPool";
