@@ -107,6 +107,7 @@ Usage
   * For Ubuntu: 
  ```
   curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash
+  sudo apt-get install build-essential libssl-dev curl git-core
   sudo apt-get install -y nodejs
  ```
   * Or use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
