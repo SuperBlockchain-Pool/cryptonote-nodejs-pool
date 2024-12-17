@@ -29,9 +29,9 @@
 		"node-telegram-bot-api": "*",
 		"nodemailer": "*",
 		"nodemailer-sendmail-transport": "*",
-		"nodemon": "^2.0.20",
+		"nodemon": "^3.0.0",
 		"redis": "3.1.2",
-		"socket.io": "3.1.1",
+		"socket.io": "4.8.0",
 		"time-ago": "*",
 		"utf-8-validate": "*"
 	},
