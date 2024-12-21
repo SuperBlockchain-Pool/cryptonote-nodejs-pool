@@ -30,7 +30,7 @@
 		"nodemailer": "*",
 		"nodemailer-sendmail-transport": "*",
 		"nodemon": "^3.0.0",
-		"redis": "3.1.2",
+		"redis": "4.7.0",
 		"socket.io": "4.8.0",
 		"time-ago": "*",
 		"utf-8-validate": "*"
