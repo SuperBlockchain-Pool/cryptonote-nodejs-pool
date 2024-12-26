@@ -22,7 +22,7 @@
 		"nirmata-util": "git+https://github.com/SuperBlockchain-Pool/NirmataNodeUtil.git",
 		"zano-util": "git+https://github.com/SuperBlockchainPool/zano-node-util.git",
 		"multi-hashing-dogemone": "git+https://github.com/SuperBlockchain-Pool/multi-hashing#yespower-blake256",
-		"dateformat": "4.5.1",
+		"dateformat": "5.0.3",
 		"discord.js": "^14.16.2",
 		"domexception": "*",
 		"mailgun.js": "*",
