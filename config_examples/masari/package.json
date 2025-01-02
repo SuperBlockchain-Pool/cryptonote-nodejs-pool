@@ -9,7 +9,7 @@
         "url": "https://github.com/muscleman/cryptonote-nodejs-pool.git"
     },
     "dependencies": {
-        "async": "1",
+        "async": "3.2.6",
         "base58-native": "*",
         "bignum": "*",
         "cli-color": "*",
